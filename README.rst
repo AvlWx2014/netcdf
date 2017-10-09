@@ -1,8 +1,6 @@
 NetCDF
 ======
 
-#Bleep Bloop
-
 Wraps many of the netcdf4-python API calls needed to write netCDF files in to
 one single class with what I think are easy to use methods. Of course, there's
 a limit to how much repetition I can remove from the process of writing netCDF
