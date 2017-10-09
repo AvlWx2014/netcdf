@@ -218,7 +218,7 @@ class NetCDFWriter(netCDF4.Dataset, object):
             )
 
         for name in "lat", "lon":
-            standards = conventions[var]
+            standards = conventions[name]
             for key, value in standards.items():
                 self.variables[name].setncattr(key, value)
         
